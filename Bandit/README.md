@@ -587,9 +587,25 @@ cron, crontab, crontab(5) (use “man 5 crontab” to access this)
 
 ## Solution
 
+![image-20201215144218855](README.assets/image-20201215144218855.png)
 
+![image-20201215144234827](README.assets/image-20201215144234827.png)
+
+![image-20201215144658681](README.assets/image-20201215144658681.png)
+
+Script for passgrabber.sh:
+
+```bash
+#!/binbash
+
+cat /etc/bandit_pass/bandit24 > /tmp/bandit24pass
+```
+
+![image-20201215144641531](README.assets/image-20201215144641531.png)
 
 Password for next level:
+
+UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ
 
 # Bandit Level 24 → Level 25
 
